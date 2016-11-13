@@ -20,12 +20,13 @@ public class javaconnect {
         
         try{
             Class.forName("org.sqlite.JDBC");
-             String path = "resources/heritage.sql";
+            String path = "resources/heritagedatabase.sqlite";
             Connection conn = DriverManager.getConnection("jdbc:sqlite:" + path);
              //Connection conn = DriverManager.getConnection("jdbc:sqlite:/Users/LatinoWolofKid/Desktop/softwareDatabase.db");
-                    //JOptionPane.showMessageDialog(null, "Connection Established");
-                    return conn;
-        }catch (Exception e){
+            JOptionPane.showMessageDialog(null, "Connection Successful");
+            return conn;
+        }catch (Exception e)
+        {
             JOptionPane.showMessageDialog(null, e);
             return null;
         }

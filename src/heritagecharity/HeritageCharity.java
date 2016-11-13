@@ -15,7 +15,8 @@ public class HeritageCharity {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+//        Login log_inst = new Login('ahmed','1234');
+//        Register reg_inst = new Register();
     }
     
 }

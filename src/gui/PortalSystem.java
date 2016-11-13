@@ -5,10 +5,10 @@
  */
 package gui;
 
-/**
- *
- * @author HusseinATejan
- */
+
+import java.sql.*;
+import javax.swing.*;
+
 public class PortalSystem extends javax.swing.JFrame {
 
     /**
