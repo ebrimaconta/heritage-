@@ -20,7 +20,7 @@ public class PaymentForm extends javax.swing.JFrame {
         ButtonGroup btnGroup = new ButtonGroup();
         btnGroup.add(ddbBtn);
         btnGroup.add(chequeBtn);
-	connection = javaconnect.ConnecrDb();
+	connection = javaconnect.ConnecrDb();  //This Line wasn't there initially—I added it!
 
     }
 
